@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+    background-color: white;
+    color: #333;
+    font-family: Roboto;
+}
+
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.7) , rgba(0, 0, 0, 0.7)), url(../images/pexels-cedric-fauntleroy-4269700\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .logo{
+    height: 100px;
+    margin-top: 20px;
+}
+.main-nav{
+    list-style: none;
+    display: flex;
+} 
+.main-nav li{
+    padding: 0 15px;
+
+}
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+.main-nav li a:hover{
+    text-decoration: underline;
+    color: rgb(98, 163, 203);
+}
+.hero-box{
+    position: absolute;
+    top: 40%; left: 20%;
+}
+
+h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.btn{
+    border: solid 1px rgb(0, 174, 255);
+    margin-right: 15px;
+    padding: 10px 20px  ;
+
+    color: rgb(0, 174, 255);
+    text-decoration:none ;
+    border-radius: 15px ;
+
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(0, 174, 255);
+}
+
+
+section{
+    padding: 40px 0;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+hr{
+    width: 100px;
+    margin: 20px auto;
+    border: solid 2px rgb(0, 213, 255);
+}
+
+.feat-desc{
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 150%;
+}
+
+.box{
+    text-align: center;
+}
+.box i{
+    font-size: 36px;
+    color: rgb(0, 174, 255);
+    margin-bottom: 10px;
+}
+
+.box h3{
+    margin-bottom: 10px;
+
+}
+.box p{
+    line-height: 1.5;
+}
+
+.meal{
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.meal img{
+    width: 100%;
+    margin-bottom: -5px;
+    opacity: .6;
+    transition: 1s;
+    transform: scale(1,1);
+    
+}
+.meal img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.city img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.city h3{
+    margin-bottom: 10px;
+}
+.city p{
+    margin-bottom: 10px;
+}
+.city i{
+    margin-right: 10px;
+    color: orange;
+}
+#testimonials{
+    background-image:
+    linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7))
+    , url(../images/7.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+#testimonials i{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+#testimonials p{
+     line-height: 1.5;
+     margin-bottom: 15px;
+}
+#testimonials img{
+    height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+form{
+    margin-top: 50px;
+}
+label{
+    font-size: large;
+    margin-bottom: 10px;
+}
+input[tybe=text]
+input[tybe=email]
+{
+    width: 100%;
+    padding: 7px;
+    border: solid #ccc 1px;
+    border-radius: 3px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+input[tybe=checkbox] {
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: solid 1px orangered;
+    border-radius: 16px;
+}
+button:hover{
+    background-color: black;
+    color: orange;
+}
+footer{
+    padding: 40px 0px ;
+    background-color: rgb(0, 213, 255);
+}
+footer p{
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
+.logo{
+    height: 100px;
+    margin-top: 20px;
+}
+.main-nav , .footer-nav  ,.social-nav {
+    list-style: none;
+    display: flex;
+}
+.main-nav , .footer-nav li ,.social-nav li{
+    padding: 0 15px;
+}
+.main-nav li a .footer-nav li ,.social-nav li{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.main-nav li a:hover , .footer-nav li a:hover, .social-nav li a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+.hero-box{
+    position: absolute;
+    top: 40%; left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
